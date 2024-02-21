@@ -3,7 +3,7 @@ package fileCopy;
 import java.io.*;
 public class fileCopy {
     public static void main(String[] args) {
-        String file1 = "output.txt";
+        String file1 = "example.txt";
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Yangi fayl nomini krting-> ");
         String yangiFile = null;
