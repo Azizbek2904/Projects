@@ -12,7 +12,6 @@ public class regex {
 
         Pattern pattern = Pattern.compile("(\\d{2}).(\\d{2}).(\\d{4})");
         Matcher matcher = pattern.matcher(malumot);
-
         if (matcher.matches()) {
             System.out.println("Day: " + matcher.group(1));
             System.out.println("Month: " + matcher.group(2));

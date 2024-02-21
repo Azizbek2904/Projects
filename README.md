@@ -1,4 +1,6 @@
-Deadlock
+Deadlock:
+
+
 deadlock bu tugallanish 2-tadan ortiq yani harakatlarning
 har biri ikkinchisini tugashini kutishi va shu barcha harakatlarni 
 ishlashiga to'sqinlik qiladigan vaziyat.
@@ -17,4 +19,5 @@ bidan blokka tushadi. chunki 2-chi tosh valiga tegishli.
 shu holatda vali 1-chi toshni olishga harakat qiladi lekin 
 u ham blokka tushadi. chunki 1-tosh valiga tegishli edi.
 
+ 
 
