@@ -17,3 +17,4 @@ bidan blokka tushadi. chunki 2-chi tosh valiga tegishli.
 shu holatda vali 1-chi toshni olishga harakat qiladi lekin 
 u ham blokka tushadi. chunki 1-tosh valiga tegishli edi.
 
+

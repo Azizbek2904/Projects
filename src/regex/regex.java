@@ -7,11 +7,19 @@ import java.util.regex.Pattern;
 public class regex {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Sana oy yilni kriting: (DD:MM:YYYY) ");
-        String text=  scanner.nextLine();
-        String regex ="^(0[1-9]|1[0-2]):(0[1-9]|[12][0-9]|3[01]):\\\\d{4}$\"";
-        Pattern pattern =Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(text);
+        System.out.print("kun oy sana kiriting (dd.MM.yyyy): ");
+        String malumot = scanner.next();
 
+        Pattern pattern = Pattern.compile("(\\d{2}).(\\d{2}).(\\d{4})");
+        Matcher matcher = pattern.matcher(malumot);
+
+        if (matcher.matches()) {
+            System.out.println("Day: " + matcher.group(1));
+            System.out.println("Month: " + matcher.group(2));
+            System.out.println("Year: " + matcher.group(3));
+            System.out.println("Full: " + matcher.group(0));
+        } else {
+            System.out.println("Noto'g'ri format!");
+        }
     }
 }
